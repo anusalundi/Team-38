@@ -38,3 +38,4 @@ Medium: Create an integer ArrayList, make sure they divide by 2, skip the first 
 
 Extra: Read about Streams and the actions you can do with it.
   */
+Can write here for sure (Hanna)
