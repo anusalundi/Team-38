@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 public class Main {
   public static void main(String[] args) {
     var numbers = new ArrayList<Integer>();
-      numbers.add(897);
+      numbers.add(300);
       numbers.add(54);
       numbers.add(-235);
       numbers.add(8);
