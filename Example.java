@@ -42,4 +42,3 @@ Extra: Read about Streams and the actions you can do with it.
   */
 Can write here for sure (Hanna)
   
-  'git pull I think i figured out too how to use these commands (kirta)
