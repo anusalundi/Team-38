@@ -31,6 +31,8 @@ public class Main {
   }
 }
 
+
+  
 /*
 Easy: Create an integer ArrayList, skip the first 5 numbers. And then with the rest of them, print them out.
 Medium: Create an integer ArrayList, make sure they divide by 2, skip the first 5, limit to three and print them out from another function.
@@ -39,3 +41,5 @@ Medium: Create an integer ArrayList, make sure they divide by 2, skip the first 
 Extra: Read about Streams and the actions you can do with it.
   */
 Can write here for sure (Hanna)
+  
+  'git pull I think i figured out too how to use these commands (kirta)
