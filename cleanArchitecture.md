@@ -1,5 +1,5 @@
 
-# Clean Architecture: A Simple Explanation
+# Clean Architecture
 
 Clean Architecture is a way to organize your code to make it easy to understand, test, and maintain. Think of it like organizing a house with different rooms for different purposes.
 
