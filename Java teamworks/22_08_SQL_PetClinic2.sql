@@ -20,8 +20,7 @@ GROUP BY Owners.City, Pets.Kind;
 
 --Calculate Average sales by City
 SELECT Owners.City, AVG(Procedures.Price) AS AverageSales
-FROM Sales
-JOIN Pets ON Sales.PetID = Pets.PetID
+FROM Sales JOIN Pets ON Sales.PetID = Pets.PetID
 JOIN Owners ON Pets.OwnerID = Owners.OwnerID
 JOIN Procedures ON Sales.ProcedureCode = Procedures.ProcedureCode
 GROUP BY Owners.City;
