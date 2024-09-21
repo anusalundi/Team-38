@@ -6,9 +6,15 @@ n = 100000  # number of steps
 
 x = np.zeros(n)
 
+
 for i in range(1, n):
-    step = random.choice([-1, 1])  
-    x[i] = x[i-1] + step  
+    val = random.randint(1, 2)  
+
+    (-1)
+    if val == 1:
+        x[i] = x[i-1] + 1  # up
+    else:
+        x[i] = x[i-1] - 1  # down
 
 # Visualisation
 plt.figure(figsize=(10, 6)) 
