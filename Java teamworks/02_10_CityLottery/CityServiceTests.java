@@ -21,18 +21,27 @@ public class CityServiceTests {
     // choose goog
 
     @Test
-    public void Given_Goog83_Wocity17_When_Randomizer83_Then_ChooseGoog() throws Exception {
+    public void Given_Goog83_Wocity17_When_Randomizer82_Then_ChooseGoog() throws Exception {
         //Arrange
+        //1. CityService needs cityRepository in the constructor
+        //2. Make a fake cityRepository
+        // Instead of using db, we are using fake data
         var cityRepository = Mockito.mock(ICityRepository.class);
 
+        // 3. Create a city service, by providing fake repository
+        // 4. Add a seed for the city service, that gives us
+        // repeatable result
         var cityService = new CityService(cityRepository, 123);
 
+        // 5. Create a list of fake cities
         var cities = new ArrayList<City>();
+        // 6. Add fake cities, to our fake city list
         cities.add(new City("Goog", 83));
         cities.add(new City("Wocity", 17));
 
-        //WHEN someone asks db for cities
-        //THEN return predetermined cities
+        // 7. Set it up, that when we want to get cities
+        // we actually get these fake cities prepared in
+        // point 6
         when(cityRepository.getCities()).thenReturn(cities);
 
         // Act
